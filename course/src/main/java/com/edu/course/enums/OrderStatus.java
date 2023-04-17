@@ -5,7 +5,8 @@ public enum OrderStatus {
     PAID(2),
     SHIPPED(3),
     DELIVERED(4),
-    CANCELED(5);
+    CANCELED(5),
+    GAMBIARRA(6);
 
     private int code;
 
@@ -22,10 +23,7 @@ public enum OrderStatus {
             if(value.getCode() == code){
                 return value;
             }
-            else{
-                throw new IllegalArgumentException("Invalid OrderStatus Code");
-            }
         }
-        return null;
+        return OrderStatus.GAMBIARRA;
     }
 }
