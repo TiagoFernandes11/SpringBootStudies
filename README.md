@@ -1,3 +1,3 @@
 # SpringBootStudies
 
-Codigo quebrado 2 commits anteriores (Curso desatualizado, não consigo resolver)
+Codigo quebrado no commit 7532556 (Curso desatualizado, não consigo resolver)
