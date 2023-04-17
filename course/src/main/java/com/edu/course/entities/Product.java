@@ -43,10 +43,6 @@ public class Product implements Serializable {
         this.imgURL = imgURL;
     }
 
-    public static long getSerialversionuid() {
-        return serialVersionUID;
-    }
-
     public Long getId() {
         return id;
     }
