@@ -3,7 +3,7 @@ package com.edu.course.entities;
 import java.time.Instant;
 import java.io.Serializable;
 
-import com.edu.course.entities.enums.OrderStatus;
+import com.edu.course.enums.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import jakarta.persistence.Entity;
